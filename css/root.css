@@ -1,0 +1,25 @@
+:root {
+    /* text */
+    --accent-color:  rgba(255, 255, 255, 0.90);
+    --main-color: rgba(255, 255, 255, 0.55);
+    --additional-color: rgba(255, 165, 55, 0.55);
+    --hover-color: rgba(255, 255, 255, 0.78);
+    --bright-hover-color: rgba(255, 165, 55, 1);
+    --second-additional-color: rgba(255, 110, 48, 1);
+    --second-hover-color: rgba(255, 165, 55, 0.55);
+    --button-text: rgba(253, 245, 255, 1);
+    --search-text: rgba(255, 255, 255, 0.38);
+    --trusted-text: rgba(255, 255, 255, 0.80);
+    /* background */
+    --background: rgba(30, 37, 43, 1);
+    --bar-background: rgba(40, 48, 54, 1);
+    --button-background: rgba(255, 110, 48, 1);
+    --second-button-background: rgba(30, 37, 43, 1);
+    --card-background: rgba(30, 37, 43, 1);
+    --hover-card-background: rgba(40, 48, 54, 0.6);
+    --trusted-background: rgba(44, 53, 61, 0.2)l;
+    /* border */
+    --bar-border: rgba(255, 255, 255, 0.10);
+    --button-border: rgba(255, 255, 255, 0.10);
+    --trusted-border: rgba(255, 255, 255, 0.05);
+}
