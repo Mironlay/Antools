@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/position.css">
     <link rel="stylesheet" href="./css/root.css">
@@ -15,7 +15,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-box ">
         <a href="#" class="logo"><img src="./images/logo.png" alt="logo" class="logo-image">antools.</a>
         <nav class="navigation">
             <ul class="list">
@@ -36,11 +36,12 @@
             <h1 class="hero-title">Awesome tools for
                 Designer & Developer <span class="dot">.</span></h1>
             <p class="hero-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
-            <div class="search-bar">
+            <form class="search-bar">
+                <img src="./images/search.png" alt="glass" class="search-img">
                 <input type="text" placeholder="find more than 430+ tools..." class="search"/>
                 <button type="button" class="search-button">Search</button>
-            </div>
-            <ul class="hero_list">
+            </form>
+            <ul class="hero-list">
                 <li class="hero-item"><a href="#" class="hero-link"><img src="./images/facebook.png" alt="facebook" class="link-logo"></a></li>
                 <li class="hero-item"><a href="#" class="hero-link"><img src="./images/instagram.png" alt="instagram" class="link-logo"></a></li>
                 <li class="hero-item"><a href="#" class="hero-link"><img src="./images/twitter.png" alt="twitter" class="link-logo"></a></li>
@@ -50,60 +51,88 @@
         <!-- section tools -->
         <section class="tools">
             <div class="container">
+            <div class="tools-title-box">
             <h2 class="tools-title">Most Popular Tools</h2>
             <p class="tools-desc">Tools for the best Designers and Developers
                 most popularly used in the world</p>
+            </div>
             <ul class="tools-list">
                 <li class="tools-item">
                     <img src="./images/figma.png" alt="figma" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">FIGMA</h3>
                     <h4 class="tools-item-subtitle">Free</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
                 <li class="tools-item">
                     <img src="./images/sketch.png" alt="sketch" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">Sketch</h3>
                     <h4 class="tools-item-subtitle">Trial & Paid</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
                 <li class="tools-item">
                     <img src="./images/visual_studio.png" alt="visual studio" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">Visual Studio Code</h3>
                     <h4 class="tools-item-subtitle">Free</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
                 <li class="tools-item">
                     <img src="./images/notion.png" alt="notion" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">Notion</h3>
                     <h4 class="tools-item-subtitle">Free & Paid</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
                 <li class="tools-item">
                     <img src="./images/slack.png" alt="slack" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">Slack</h3>
                     <h4 class="tools-item-subtitle">Free & Paid</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
                 <li class="tools-item">
                     <img src="./images/invision.png" alt="invision" class="tools-img">
+                    <div class="tools-list-title-box">
                     <h3 class="tools-item-title">Invision</h3>
                     <h4 class="tools-item-subtitle">Free & Paid</h4>
+                    </div>
                     <p class="tools-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="tools-list-buttons-box">
                     <button type="button" class="favorite"><img src="./images/fav_offline.png" alt="heart" class="favorite-img"></button>
                     <button type="button" class="folder"><img src="./images/folder.png" alt="folder" class="folder-img"></button>
                     <button type="button" class="tools-item-button">Visit</button>
+                    </div>
             </ul>
+            <div class="tools-button-box">
             <button type="button" class="tools-button">Load more</button>
+            </div>
             </div>
         </section>
         <!-- section trusted -->
@@ -120,10 +149,12 @@
         </section>
         <!-- section newcomers -->
         <section class="newcomers">
-            <div class="container">
-            <h2 class="newcomers-title">Newcomer Tools</h2>
-            <p class="newcomers-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-            <button type="button" class="newcomers-button">Explore more</button>
+            <div class="container newcomers-box">
+                <ul class="newcomers-list">
+                    <li class="newcomers-item-f"><h2 class="newcomers-title">Newcomer Tools</h2></li>
+                    <li class="newcomers-item-f"><p class="newcomers-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p></li>
+                    <li class="newcomers-item-f"><button type="button" class="newcomers-button">Explore more</button></li>
+                </ul>
             <ul class="newcomers-list">
                 <li class="newcomers-item">
                     <img src="./images/zeplin.png" alt="zeplin" class="newcomers-img">
@@ -163,11 +194,15 @@
         <!-- section recommendation -->
         <section class="recommendation">
             <div class="container">
+            <div class="recommendation-box">
+            <button type="button" class="recommendation-button"><img src="./images/arrow-left.png" alt="left" class="recommendation-img"></button>
+            <div class="recommendation-text-box">
             <h2 class="recommendation-title">Ronald Richards</h2>
             <h3 class="recommendation-subtitle">Product Manager</h3>
-            <p class="recommendation-desk">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-            <button type="button" class="recommendation-button"><img src="./images/arrow-left.png" alt="left" class="recommendation-img"></button>
+            </div>
+            <p class="recommendation-desc">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
             <button type="button" class="recommendation-button"><img src="./images/arrow-right.png" alt="right" class="recommendation-img"></button>
+            </div>
             <div class="recommendation-nav">
                 <button type="button" class="nav-button"></button>
                 <button type="button" class="nav-button"></button>
@@ -189,10 +224,10 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-box">
         <ul class="footer-list">
             <li class="footer-item">
-                <a href="#" class="footer-item-link"><img src="./images/logo.png" alt="logo" class="logo-image">antools.</a>
+                <a href="#" class="footer-item-link"><img src="./images/logo.png" alt="logo" class="footer-logo-image">antools.</a>
             </li>
             <li class="footer-item">
                 <h2 class="footer-title">Copyright 2021. Antools</h2>
@@ -201,22 +236,20 @@
                 <p class="footer-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
             </li>
         </ul>
-        <address class="address">
-            <ul class="address-list">
-                <li class="address-item">
-                    <h2 class="address-title">Contact Us</h2>
-                </li>
-                <li class="address-item">
-                    <a href="tel:+621987463" class="address-link">+621987463</a>
-                </li>
-                <li class="address-item">
-                    <a href="https://maps.app.goo.gl/95CcJ6s4bVdCcWkG7" target="_blank" class="address-link">M Building, No.10 A</a>
-                </li>
-                <li class="address-item">
-                    <a href="mailto:antools@awesome.com" class="address-link">antools@awesome.com</a>
-                </li>
-            </ul>
-        </address>
+        <ul class="address-list">
+            <li class="address-item">
+                <h2 class="address-title">Contact Us</h2>
+            </li>
+            <li class="address-item">
+                <a href="tel:+621987463" class="address-link">+621987463</a>
+            </li>
+            <li class="address-item">
+                <a href="https://maps.app.goo.gl/95CcJ6s4bVdCcWkG7" target="_blank" class="address-link">M Building, No.10 A</a>
+            </li>
+            <li class="address-item">
+                <a href="mailto:antools@awesome.com" class="address-link">antools@awesome.com</a>
+            </li>
+        </ul>
         <ul class="categories-list">
             <li class="categories-item">
                 <h2 class="categories-title">Categories</h2>

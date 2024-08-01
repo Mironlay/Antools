@@ -18,6 +18,7 @@
     --card-background: rgba(30, 37, 43, 1);
     --hover-card-background: rgba(40, 48, 54, 0.6);
     --trusted-background: rgba(44, 53, 61, 0.2)l;
+    --text-box-background: rgba(40, 48, 54, 0.20);
     /* border */
     --bar-border: rgba(255, 255, 255, 0.10);
     --button-border: rgba(255, 255, 255, 0.10);
