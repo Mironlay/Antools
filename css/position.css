@@ -244,7 +244,6 @@ margin-bottom: 30px;
     padding: 16px 40px;
 }
 
-
 .newcomers-list:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +256,23 @@ margin-bottom: 30px;
     width: 288px;
 height: 284px;
 flex-shrink: 0;
+padding: 28px 21px 28px 22px;
 }
+
+.newcomers-list-box {
+    display: flex;
+margin-bottom: 30px;
+gap: 30px;
+}
+
+.newcomers-text-box {
+    display: block;
+}
+
+.newcomers-item-desc {
+    margin-bottom: 30px;
+}
+
 
 /* section recommendation */
 
@@ -291,8 +306,17 @@ justify-content: center;
 gap: 18px;
 }
 
+.newcomers-favorite {
+    margin-right: 12px;
+}
 
+.newcomers-folder {
+    margin-right: 39px;
+}
 
+.newcomers-item-button {
+    padding: 9px 35px;
+}
 
 /* section email */
 
