@@ -337,12 +337,9 @@ font-weight: 400;
 line-height: 2.1;
 }
 
-.newcomers-favorite {
-    padding: 7px;
-}
-
+.newcomers-favorite,
 .newcomers-folder {
-    padding: 7px 6px 5px 6px;
+    padding: 7px;
 }
 
 .newcomers-favorite,
