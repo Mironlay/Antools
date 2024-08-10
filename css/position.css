@@ -39,7 +39,6 @@
     align-items: center;
 }
 
-
 .list-item:nth-child(2)::after {
     content: "";
 background-image: url(../images/down_arrow.png);
@@ -97,24 +96,13 @@ padding-left: 55px; */
     width: 190px;
 }
 
-/* .search::before {
-    content: "";
-background-image: url(../images/facebook.png);
-width: 19px;
-height: 19px;
-display: block;
-background-repeat: no-repeat;
-background-position: center;
-
-} */
-
 .search-button {
     padding: 12px 36px;
 }
 
 .hero-list {
     display: flex;
-    gap: 30px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -152,6 +140,11 @@ flex-wrap: wrap;
 padding: 33px;
 }
 
+.tools-item:hover {
+    padding: 33px 33px 33px;
+    margin-top: -20px;
+}
+
 .tools-img {
 height: 64px;
 flex-shrink: 0;
@@ -181,12 +174,27 @@ margin-bottom: 30px;
 .favorite {
     padding: 7px;
     margin-right: 12px;
+    width: 42px;
+height: 42px;
 }
 
+
+/* .favorite-image {
+    width: 28px;
+height: 28px;
+} */
+
 .folder {
-    padding: 6px;
-    margin-right: 120px;
+    padding: 7px;
+    margin-right: 118px;
+width: 40px;
+height: 42px;
 }
+
+/* .folder-image {
+    width: 30px;
+height: 30px;
+} */
 
 .tools-item-button {
     padding: 9px 35px;
@@ -259,6 +267,11 @@ flex-shrink: 0;
 padding: 28px 21px 28px 22px;
 }
 
+.newcomers-item:hover {
+    padding: 28px 21px 28px 22px;
+    margin-top: -20px;
+}
+
 .newcomers-list-box {
     display: flex;
 margin-bottom: 30px;
@@ -278,12 +291,20 @@ gap: 30px;
 
 .recommendation {
     padding-top: 328px;
-
+    background-image: url(../images/ronald.png), url(../images/sign.png);
+    background-repeat: no-repeat;
+    background-position: 295px 250px, 650px 250px;
+    padding-bottom: 250px;
 }
+
 
 .recommendation-box {
     display: flex;
     align-items:center;
+}
+
+.recommendation-button {
+    padding: 26px 16px;
 }
 
 .recommendation-button:nth-child(1) {
@@ -297,6 +318,7 @@ padding: 10px 22px 16px 23px;
 
 .recommendation-desc {
 margin-right: 108px;
+margin-bottom: 284px;
 }
 
 

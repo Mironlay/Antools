@@ -1,6 +1,3 @@
-/* main {
-    outline: 3px solid red;
-} */
 
 /* header */
 
@@ -16,12 +13,20 @@ font-weight: 600;
 line-height: 1.5;
 }
 
+.logo:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .item-link {
     color: var(--main-color);
 font-family: "Poppins", sans-serif; 
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
+}
+
+.item-link:hover {
+    color: rgba(255, 255, 255, 0.93);
 }
 
 .login-button {
@@ -31,7 +36,13 @@ font-size: 16px;
 font-weight: 600;
 line-height: 1.5;
 border: none;
+border-radius: 8px;
 background-color: var(--background);
+}
+
+.login-button:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 110, 48, 0.1);
 }
 
 .sign-button {
@@ -45,7 +56,10 @@ background-color: var(--button-background);
 border-radius: 8px;
 }
 
-
+.sign-button:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 110, 48, 0.7);
+}
 
 .main {
     background-color: var(--background);
@@ -81,8 +95,6 @@ line-height: 1.6;
     border-radius: 15px;
 border: 1.5px solid var(--bar-border);
 background-color: var(--bar-background);
-
-/* Поки для теста */
 padding: 8px 11px 8px 20px;
 width: 497.659px;
 }
@@ -108,6 +120,27 @@ background-color: var(--button-background);
 border-radius: 8px;
 }
 
+.search-button:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 110, 48, 0.7);
+}
+
+.hero-item-button {
+    background: var(--background);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.hero-item-button:hover {
+background: rgba(255, 110, 48, 0.3);
+}
+
+.link-logo {
+    width: 34px;
+    height: 34px;
+}
+
 /* section tools */
 
 .tools-title {
@@ -127,6 +160,20 @@ font-size: 18px;
 font-weight: 500;
 line-height: 1.6;
 width: 427px;
+}
+
+.tools-item:hover {
+    border-radius: 15px;
+border: 2px rgba(255, 255, 255, 0.80);
+background: rgba(40, 48, 54, 0.60);
+backdrop-filter: blur(25px);
+background-image: url(../images/tools_mask.png) ;
+background-repeat: no-repeat;
+background-position: top right;
+.tools-item-button {
+ color: #FFF;
+ background-color: var(--button-background);
+}
 }
 
 .tools-item-title {
@@ -157,6 +204,7 @@ line-height: 1.8;
 .folder {
     border: none;
     background-color: var(--background);
+    border-radius: 8px;
 }
 
 .tools-item-button {
@@ -167,6 +215,7 @@ font-weight: 600;
 line-height: 1.5;
 border: none;
 background-color: var(--background);
+border-radius: 8px;
 }
 
 .tools-button {
@@ -180,6 +229,11 @@ border: 1px solid var(--button-border);
 background-color: var(--background);
 }
 
+.tools-button:hover {
+    color: rgba( 255, 255, 255, 0.8);
+    background-color: var(--button-background);;
+}
+
 /* section trusted */
 
 .trusted-box {
@@ -187,6 +241,8 @@ background-color: var(--background);
 border: 2px solid var(--trusted-border);
 
 backdrop-filter: blur(25px);
+background-image: linear-gradient(rgba(44, 53, 61, 0.2), rgba(44, 53, 61, 0.2)),  url(../images/trusted-elipse.png);
+background-repeat: no-repeat;
 }
 
 .trusted-title {
@@ -227,9 +283,28 @@ border-radius: 8px;
 background-color: var(--button-background);
 }
 
+.newcomers-button:hover {
+    color: rgba(255, 255, 255, 0.9);
+background-color: rgba(255, 110, 48, 0.7);
+}
+
 .newcomers-item {
     border-radius: 15px;
 background: var(--background);
+}
+
+.newcomers-item:hover {
+    background-image: url(../images/newcomers_mask.png);
+background-repeat: no-repeat;
+background-position: top right;
+border: 2px rgba(255, 255, 255, 0.80);
+background-color: var(--hover-card-background);
+backdrop-filter: blur(25px);
+.newcomers-item-button{
+    border-radius: 8px;
+    background: var(--button-background);
+    color: #FFF;
+}
 }
 
 .newcomers-img {
@@ -274,6 +349,7 @@ line-height: 2.1;
 .newcomers-folder {
     border: none;
     background-color: var(--background);
+    border-radius: 8px;
 }
 
 .newcomers-item-button {
@@ -288,13 +364,15 @@ background-color: var(--background);
 }
  /* section recommendation */
 
+
  .recommendation-text-box {
-    width: 265px;
-height: 91px;
 border-radius: 8px;
 border: 1px var(--bar-border);
-background: var(--text-box-background);
+background-color: var(--text-box-background);
 backdrop-filter: blur(25px);
+background-image: url(../images/recommendation_elipse.png);
+background-repeat: no-repeat;
+background-position: right;
 }
 
 .recommendation-title {
@@ -329,9 +407,16 @@ width: 393px;
 .recommendation-button {
     border: none;
 background-color: var(--background);
-width: 80px;
 border-radius: 8px;
 }
+
+.recommendation-button:hover {
+ background-color: rgba(255, 110, 48, 0.2);
+}
+
+/* .recommendation-button:nth-child(2):hover {
+background-color: rgba(255, 110, 48, 0.2);
+} */
 
 .nav-button:nth-child(1),
 .nav-button:nth-child(3) {
@@ -342,12 +427,21 @@ width: 43px;
 height: 8px;
 }
 
+.nav-button:nth-child(1):hover,
+.nav-button:nth-child(3):hover {
+    background-color: rgba(60, 68, 74, 1);
+}
+
 .nav-button:nth-child(2) {
     background-color: var(--button-background);
 border-radius: 4px;
 border: none;
 width: 43px;
 height: 8px;
+}
+
+.nav-button:nth-child(2):hover  {
+    background-color: rgba(255, 130, 68, 1);
 }
 
 /* section email  */
@@ -401,6 +495,11 @@ border-radius: 8px;
 background: var(--button-background);
 }
 
+.form-button:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 110, 48, 0.7);
+}
+
 /* footer */
 
 .footer {
@@ -413,6 +512,10 @@ background: var(--button-background);
     font-size: 22px;
     font-weight: 600;
     line-height: 1.5;
+}
+
+.footer-item-link:hover {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-title {
@@ -450,6 +553,10 @@ font-weight: 500;
 line-height: 1.5;
 }
 
+.address-link:hover {
+    color: rgba(255, 255, 255, 0.93);
+}
+
 .categories-title {
     color: var(--accent-color);
 font-family: "Poppins", sans-serif;
@@ -468,6 +575,10 @@ font-weight: 500;
 line-height: 1.5;
 }
 
+.categories-link:hover {
+    color: rgba(255, 255, 255, 0.93);
+}
+
 .info-title {
     color: var(--accent-color);
 font-family: "Poppins", sans-serif;
@@ -484,6 +595,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
+}
+
+.info-link:hover {
+    color: rgba(255, 255, 255, 0.93);
 }
 
 
