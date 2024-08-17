@@ -125,14 +125,13 @@ border-radius: 8px;
     background-color: rgba(255, 110, 48, 0.7);
 }
 
-.hero-item-button {
-    background: var(--background);
+.hero-item {
     border: none;
     padding: 12px;
     border-radius: 8px;
 }
 
-.hero-item-button:hover {
+.hero-item:hover {
 background: rgba(255, 110, 48, 0.3);
 }
 
