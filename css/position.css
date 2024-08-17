@@ -225,7 +225,7 @@ height: 30px;
 
 .trusted-list {
     display: flex;
-    gap: 107px;
+    justify-content: space-between;
 }
 
 /* section newcomers */
